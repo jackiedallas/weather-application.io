@@ -111,7 +111,6 @@ $(document).ready(function () {
 						const interval = setInterval(() => {
 							if (i > apiData.radar.past.length - 1) {
 								clearInterval(interval);
-								return;
 							} else {
 								apiData.radar.past.forEach((frame, index) => {
 									weatherMap.setLayoutProperty(
