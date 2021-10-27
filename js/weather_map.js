@@ -78,7 +78,7 @@ $(document).ready(function () {
 			}
 			
 			// Create Map
-			mapboxgl.accessToken = mapBoxKey;
+			mapboxgl.accessToken = 'pk.eyJ1IjoiamFja2llZGFsbGFzIiwiYSI6ImNrdWN1NmEwbjE0MTMyeG84Y3pmMnN6encifQ.pTLanvGV47qgP0FzumCIOw';
 			var weatherMap = new mapboxgl.Map({
 				container: 'map',
 				zoom: 10,
