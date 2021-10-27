@@ -1,5 +1,6 @@
 "use strict"
 const weatherMapKey = '22fc8c58226f0972201cc4163c067108';
+const mapBoxKey = 'pk.eyJ1IjoiamFja2llZGFsbGFzIiwiYSI6ImNrdWN1NmEwbjE0MTMyeG84Y3pmMnN6encifQ.pTLanvGV47qgP0FzumCIOw';
 $(document).ready(function () {
 	$.get('https://api.openweathermap.org/data/2.5/onecall', {
 		appid: weatherMapKey,
