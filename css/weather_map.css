@@ -1,0 +1,38 @@
+/*Font Styles*/
+.fancy-brand {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 700;
+	color: red;
+}
+
+#map {
+	width: 66%;
+	height: 700px;
+}
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	background-color: rgba(112, 128, 144, 0.21);
+}
+
+
+/*Card Styles*/
+.cardText {
+	font-weight: bold;
+}
+
+#cards {
+	background-color: transparent;
+	width: 300px;
+	/*height: 500px;*/
+}
+
+.animate__animated.animate__pulse {
+	--animate-duration: .3s;
+}
+
+.animate__animated.animate__bounceInLeft {
+	--animate-duration: 3s;
+}
+
+
